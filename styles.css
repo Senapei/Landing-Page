@@ -18,6 +18,8 @@ img {
   height: auto;
 }
 
+/* Header section */
+
 .header-container {
   display: flex;
   justify-content: center;
@@ -37,16 +39,18 @@ img {
   gap: 30px;
 }
 
+.header-logo {
+  font-size: 24px;
+  color: #f9faf8;
+}
+
+/* Hero section */
+
 .hero-container {
   display: flex;
   justify-content: center;
   background-color: #1f2937;
   color: #fff;
-}
-
-.header-logo {
-  font-size: 24px;
-  color: #f9faf8;
 }
 
 .hero {
@@ -80,13 +84,48 @@ img {
 
 .hero-text,
 .hero-btn {
-  font-size: 18px;
   color: #e5e7eb;
+}
+
+.hero-text {
+  font-size: 18px;
 }
 
 .hero-btn {
   background-color: #3882f6;
-  padding: 3px 15px;
+  padding: 5px 20px;
   border: none;
   border-radius: 4px;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+/* information section */
+
+.information-container {
+  display: flex;
+  justify-content: center;
+}
+
+.information {
+  text-align: center;
+  width: 900px;
+}
+
+.information-header {
+  margin: 33px;
+}
+
+.information-item-container {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.information-item {
+}
+
+.bird-img {
+  height: 200px;
+  width: auto;
 }
