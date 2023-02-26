@@ -24,6 +24,7 @@ img {
   display: flex;
   justify-content: center;
   background-color: #1f2937;
+  padding: 18px 0;
 }
 
 .header {
@@ -31,7 +32,6 @@ img {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 18px 0;
 }
 
 .header-list {
@@ -51,6 +51,7 @@ img {
   justify-content: center;
   background-color: #1f2937;
   color: #fff;
+  padding: 60px 0;
 }
 
 .hero {
@@ -58,7 +59,7 @@ img {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 60px 0;
+
   gap: 40px;
 }
 
@@ -93,7 +94,7 @@ img {
 
 .hero-btn {
   background-color: #3882f6;
-  padding: 5px 20px;
+  padding: 5px 23px;
   border: none;
   border-radius: 4px;
   font-size: 13px;
@@ -105,12 +106,12 @@ img {
 .information-container {
   display: flex;
   justify-content: center;
+  padding: 40px 0 90px;
 }
 
 .information {
   text-align: center;
   width: 900px;
-  padding: 40px 0 90px;
 }
 
 .information-header {
@@ -128,12 +129,14 @@ img {
   width: auto;
 }
 
+/* Quote section */
+
 .quote-section-container {
   background-color: #e5e7eb;
-  height: 300px;
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 60px 0;
 }
 
 .quote-section {
@@ -151,5 +154,38 @@ img {
 
 .quote-author {
   text-align: end;
+  font-weight: bold;
+}
+
+/* Call To Action section */
+
+.cta-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 60px 0;
+}
+
+.cta {
+  background-color: #3882f6;
+  width: 800px;
+  padding: 30px 70px;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cta-btn {
+  color: #fff;
+  background-color: #3882f6;
+  border: 1px solid #fff;
+  border-radius: 4px;
+
+  padding: 5px 23px;
+
+  font-size: 13px;
   font-weight: bold;
 }
