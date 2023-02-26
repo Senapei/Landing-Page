@@ -110,10 +110,11 @@ img {
 .information {
   text-align: center;
   width: 900px;
+  padding: 40px 0 90px;
 }
 
 .information-header {
-  margin: 33px;
+  margin-bottom: 33px;
 }
 
 .information-item-container {
@@ -122,10 +123,33 @@ img {
   gap: 40px;
 }
 
-.information-item {
-}
-
 .bird-img {
   height: 200px;
   width: auto;
+}
+
+.quote-section-container {
+  background-color: #e5e7eb;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.quote-section {
+  width: 696px;
+}
+
+.quote-text,
+.quote-author {
+  color: #1f2937;
+}
+
+.quote-text {
+  font-size: 36px;
+}
+
+.quote-author {
+  text-align: end;
+  font-weight: bold;
 }
